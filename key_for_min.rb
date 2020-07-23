@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, value|
     if value < limit
       limit = value
-      p name_hash.key(value)
+      p name_hash.key(limit)
     end
 end
 
