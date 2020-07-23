@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if value < limit
       limit = value
     end
-    p name_hash.key(limit)
 end
+p name_hash.key(limit)
 
 end
